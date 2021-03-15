@@ -1,0 +1,66 @@
+@keyframes botao {
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 80%;
+	}
+}
+@keyframes p {
+	0%{
+		top: -45px;
+	}
+	100%{
+		top: -10px;
+	}
+}
+@keyframes mos {
+	0%{
+		display: none;
+	}
+	100%{
+		display: all;
+	}
+}
+p {
+	left: auto;
+	position: relative;
+	top: -10px;
+	height: 1px;
+	width: 260px;
+	animation: p 2s;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+}
+h3 {
+	font-size: 25px;
+}
+* {
+	font-weight: bold;
+	color: #fff;
+	font-size: 13px;
+	text-align: center;
+	margin: 10px;
+	background-color: #114;
+}
+input {
+	height: 25px;
+	border-color: #fff;
+	border-style: solid;
+}
+
+#botao{
+	height: 30px;
+	width: 80%;
+	border-color: #fff;
+	border-radius: 20px;
+	border-style: solid;
+	animation: botao 2s;
+}
+.resposta {
+	margin-top: 25%;
+	border: solid;
+	animation: mos 2s;
+}

@@ -1,2 +1,3 @@
-# WhatsLike
-Gerar link para você divulga seu contatos pelo WhatsApp
+# WhatsLink
+
+Ferramenta de gerar link para Whatsapp, Projeto em desenvolvimentos...
