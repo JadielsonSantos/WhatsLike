@@ -1,66 +1,42 @@
-@keyframes botao {
-	0%{
-		width: 0%;
-	}
-	100%{
-		width: 80%;
-	}
+.heard {
+	text-align: center;
+	color: #f1e8ec;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-@keyframes p {
-	0%{
-		top: -45px;
-	}
-	100%{
-		top: -10px;
-	}
-}
-@keyframes mos {
-	0%{
-		display: none;
-	}
-	100%{
-		display: all;
-	}
-}
-p {
-	left: auto;
-	position: relative;
-	top: -10px;
-	height: 1px;
-	width: 260px;
-	animation: p 2s;
+* {
+	background-color: #0B132B;
 }
 .content {
 	display: flex;
+	align-items: center;
 	flex-direction: column;
 }
-h3 {
-	font-size: 25px;
-}
-* {
-	font-weight: bold;
-	color: #fff;
-	font-size: 13px;
-	text-align: center;
-	margin: 10px;
-	background-color: #114;
-}
 input {
-	height: 25px;
-	border-color: #fff;
-	border-style: solid;
-}
-
-#botao{
-	height: 30px;
+	height: 80%;
 	width: 80%;
-	border-color: #fff;
-	border-radius: 20px;
-	border-style: solid;
-	animation: botao 2s;
+	border-radius: 10px;
+	border-color: rgb(255, 255, 255);
+	background-color: white;
+	color: #0B132B;
+	font-size: 15px;
+	border-width: 1px;
+	font-family: monospace;
+	margin: 20px;
+	padding: 10px;
 }
-.resposta {
-	margin-top: 25%;
-	border: solid;
-	animation: mos 2s;
+.foot {
+	padding: 20px;
+	margin-top: 5%;
+	text-align: center;
+}
+button {
+	background-color: #fff;
+	padding: 5px;
+	color: #0B132B;
+	font-weight: bold;
+	border-radius: 20px;
+	font-family: monospace;
+	font-size: 17px;
+	width: 50%;
+	margin-bottom: 10px;
 }

@@ -8,16 +8,18 @@
 	<title>Whats Link</title>
 </head>
 <body>
-	<h3>Whats Link</h3>
-	<div class="content">
-		<input id="mensagens" required type="text">
-		<p>Sua mensagens</p>
-		<input id="numero" required type="tel">
-		<p>Seu DDD + numero</p>
+	<div class="heard">
+		<h1>WHATSLINK</h1>
 	</div>
-	<button id="botao" onclick="gera()">Gerar</button>
-	<div class="resposta">
-		<a href="#" id="url"></a>
+	<div class="content">
+		<input tabindex="1" placeholder="Digite sua mensagens" id="mensagens" required type="text">
+		<input tabindex="2" placeholder="Digite seu numero Ex:82998877665" id="numero" required type="tel">
+	</div>
+	<div class="foot">
+		<button tabindex="3" id="botao" onclick="gera()">GERAR</button>
+		<div class="resposta">
+			<a href="#" id="url"></a>
+		</div>
 	</div>
 	<script src="js/main.js"></script>
 </body>
